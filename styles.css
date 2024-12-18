@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#array-container {
+    display: flex;
+    margin: 20px 0;
+    height: 300px;
+}
+
+.bar {
+    width: 20px;
+    margin: 0 2px;
+    background-color: teal;
+    display: inline-block;
+    transition: height 0.2s;
+}
